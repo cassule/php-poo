@@ -1,10 +1,11 @@
 <?php
 
-require_once __DIR__ . "/class/metodos-magicos.php";
+require_once __DIR__ . "/class/heranca01.php";
 
-$meuEndereco = new Endereco("Angola ", "Luanda", "Palanca ");
+$objecto =  new Programador();
 
-echo $meuEndereco;
+#echo $objecto->idade;
 
+$objecto->verDados();
 
 ?>
