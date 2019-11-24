@@ -1,11 +1,9 @@
 <?php
 
-require_once __DIR__ . "/class/heranca03.php";
+require_once __DIR__ . "/class/interfaceImplements.php";
 
-$doc =  new CPF();
+$carro = new Civic();
 
-$doc->setNumero("22930-2930");
-
-var_dump($doc->validarCPF());
+$carro->travar("500");
 
 ?>

@@ -1,5 +1,7 @@
 <?php
 
+/* Classe implementada no arquivo Heranca03 */
+
 class Documento {
 
     private $numero;
