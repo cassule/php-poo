@@ -1,9 +1,26 @@
 <?php
 
-require_once __DIR__ . "/class/interfaceImplements.php";
+require_once __DIR__ . "/class/polimorfismo.php";
 
-$carro = new Civic();
+$pluto = new Cachorro();
 
-$carro->travar("500");
+echo $pluto->falar() . "<br>";
+echo $pluto->mover(). "<br>";
+
+echo "______________________ <br><br><br>";
+
+$garfild = new Gato();
+
+echo $garfild->falar() . "<br>";
+echo $garfild->mover(). "<br>";
+
+echo "______________________ <br><br><br>";
+
+$ave = new Passaro();
+
+echo $ave->falar() . "<br>";
+echo $ave->mover(). "<br>";
+
+echo "______________________ <br><br><br>";
 
 ?>
