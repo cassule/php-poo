@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__ . "/class/heranca01.php";
+require_once __DIR__ . "/class/heranca03.php";
 
-$objecto =  new Programador();
+$doc =  new CPF();
 
-#echo $objecto->idade;
+$doc->setNumero("22930-2930");
 
-$objecto->verDados();
+var_dump($doc->validarCPF());
 
 ?>
