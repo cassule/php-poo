@@ -1,12 +1,10 @@
 <?php
 
-require_once __DIR__ . "/class/metodos-estaticos.php";
+require_once __DIR__ . "/class/metodos-magicos.php";
 
-$cpf = new Doc();
+$meuEndereco = new Endereco("Angola ", "Luanda", "Palanca ");
 
-$cpf->setNumero("87988389033");
-
-var_dump($cpf->getNumero());
+echo $meuEndereco;
 
 
 ?>
